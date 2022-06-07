@@ -14,10 +14,10 @@ function App() {
         <Header />
         <h1></h1>
         <Routes>
-          <Route path='/' element={<ProductListing />} />
-          <Route path='/product/:id' element={<ProductDetails />} />
-          <Route path='/products' element={<ProductComponent />} />
-          <Route path='/cart' element={<Cart/>} />
+          <Route path='/fakeshop' element={<ProductListing />} />
+          <Route path='/fakeshop/product/:id' element={<ProductDetails />} />
+          <Route path='/fakeshop/products' element={<ProductComponent />} />
+          <Route path='/fakeshop/cart' element={<Cart/>} />
           <Route path="*" element={
             <h1>404 not found</h1>
           } />
