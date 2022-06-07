@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.5add302a.css","mappings":"AAAA,MACI,UAAY,CACZ,oBACJ","sources":["components/css/main.css"],"sourcesContent":["#link{\r\n    color: black;\r\n    text-decoration: none;\r\n}"],"names":[],"sourceRoot":""}
