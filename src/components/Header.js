@@ -10,10 +10,10 @@ function Header() {
     <div className="container border sticky-top bg-danger text-white">
       <div className="d-flex justify-content-between text-white">
         <h2>
-          <Link to={"/"} className="td-none text-white" id='link'>Home</Link>
+          <Link to={"/fakeshop"} className="td-none text-white" id='link'>Home</Link>
         </h2>
         <h2>
-          <Link to={"/cart"} className="td-none text-white" id='link'>cart {cartitems.length} </Link>
+          <Link to={"/fakeshop/cart"} className="td-none text-white" id='link'>cart {cartitems.length} </Link>
         </h2>
       </div>
     </div>
